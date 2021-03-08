@@ -18,6 +18,11 @@ const CategoryStack = createStackNavigator({
   },
   Details: {
     screen: Details,
+    navigationOptions: {
+      headerStyle: {
+        backgroundColor: "#dc3545",
+      },
+    },
   },
 });
 
