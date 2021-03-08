@@ -54,7 +54,7 @@ export default function Row({ title, query, navigation }) {
           data={results}
           renderItem={({ item }) => (
             <TouchableOpacity
-              onPress={() => navigation.navigate("Details", { item })}
+              onPress={() => navigation.navigate("Details", { movie: item })}
             >
               <MovieCard movie={item} />
             </TouchableOpacity>

@@ -18,7 +18,9 @@ export default function MovieCard({ movie }) {
         }}
       />
       <Card.Content style={{ paddingVertical: 10 }}>
-        <Title style={globalStyles.text}>{movie.original_title}</Title>
+        <Title style={globalStyles.text}>
+          {movie.original_title || movie.original_name}
+        </Title>
         <Subheading style={globalStyles.text}>
           Rating: {movie.vote_average}
         </Subheading>
