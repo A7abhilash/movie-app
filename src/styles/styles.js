@@ -7,6 +7,9 @@ export const globalStyles = StyleSheet.create({
     flex: 1,
   },
   row: {
-    marginVertical: 20,
+    marginBottom: 20,
+  },
+  text: {
+    color: "#eee",
   },
 });
