@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { ScrollView, View } from "react-native";
 import {
   Card,
   Headline,
@@ -7,7 +7,6 @@ import {
   Subheading,
   Text,
 } from "react-native-paper";
-// import { Text } from "react-native-paper/lib/typescript/components/Avatar/Avatar";
 import { globalStyles } from "../styles/styles";
 
 export default function Details({ navigation }) {
@@ -18,6 +17,7 @@ export default function Details({ navigation }) {
         style={{
           backgroundColor: "#343a40",
           margin: 20,
+          flex: 1,
         }}
       >
         <Card.Cover
@@ -25,7 +25,7 @@ export default function Details({ navigation }) {
             uri: `https://image.tmdb.org/t/p/original${movie.backdrop_path}`,
           }}
         />
-        <Card.Content style={{ paddingVertical: 10 }}>
+        <Card.Content style={{ paddingVertical: 10, flex: 1 }}>
           <Headline style={globalStyles.text}>
             {movie.original_title || movie.original_name}
           </Headline>
@@ -35,9 +35,23 @@ export default function Details({ navigation }) {
           <Text style={globalStyles.text}>
             Release Date: {movie.release_date}
           </Text>
-          <Paragraph style={{ marginVertical: 10, ...globalStyles.text }}>
-            {movie.overview}
-          </Paragraph>
+          <Text
+            style={{
+              fontWeight: "800",
+              fontSize: 20,
+              marginTop: 10,
+              ...globalStyles.text,
+            }}
+          >
+            Overview:
+          </Text>
+          <ScrollView
+            style={{
+              flex: 1,
+            }}
+          >
+            <Paragraph style={globalStyles.text}>{movie.overview}</Paragraph>
+          </ScrollView>
         </Card.Content>
       </Card>
     </View>

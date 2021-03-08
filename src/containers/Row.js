@@ -17,7 +17,6 @@ export default function Row({ title, query, navigation }) {
   const [results, setResults] = useState([]);
 
   let BASEURL = `https://api.themoviedb.org/3/${query}`;
-  let IMAGEURL = `https://image.tmdb.org/t/p/original`;
 
   useEffect(() => {
     setLoading(true);
