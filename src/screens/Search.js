@@ -34,19 +34,19 @@ export default function Search({ navigation }) {
         />
         <Button title="Search" onPress={pressHandler} />
       </View>
-      <Text>
-        {query && (
-          <ScrollView
-            style={{ flex: 1, flexDirection: "row", flexWrap: "wrap" }}
-          >
+      <ScrollView horizontal>
+        <Text>
+          {query && (
             <Row
               title={`Results for "${query}"`}
               query={`search/movie?query=${query}&api_key=${API_KEY}`}
               navigation={navigation}
             />
-          </ScrollView>
-        )}
-      </Text>
+            //   <ScrollView style={{ flex: 1, flexDirection: "row" }}>
+            //   </ScrollView>
+          )}
+        </Text>
+      </ScrollView>
     </View>
   );
 }

@@ -26,7 +26,7 @@ export default function Row({ title, query, navigation }) {
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);
-        if (data?.results) {
+        if (data?.results?.length) {
           setResults(data.results);
         } else {
           setError(true);
@@ -40,11 +40,7 @@ export default function Row({ title, query, navigation }) {
     <View style={globalStyles.row}>
       <Title style={{ ...globalStyles.text, ...styles.title }}>{title}</Title>
       {loading && <ActivityIndicator color="red" />}
-      {error && (
-        <Snackbar visible duration={3000}>
-          Error fetching data...
-        </Snackbar>
-      )}
+      {error && <Snackbar duration={3000}>Error fetching data...</Snackbar>}
       {!loading && !error && results && (
         <FlatList
           horizontal
