@@ -11,8 +11,8 @@
 </div>
 
 <div align="center">
-<img src="assets/screenshots/Screenshot_1619061060.png" style="border-radius:5px;border:1px solid black;" alt="Home" width="100">
-<img src="assets/screenshots/Screenshot_1619061118.png" style="border-radius:5px;border:1px solid black;" alt="SocialApp-rn" width="100">
-<img src="assets/screenshots/Screenshot_1619061188.png" style="border-radius:5px;border:1px solid black;" alt="SocialApp-rn" width="100">
-<img src="assets/screenshots/Screenshot_1619064075.png" style="border-radius:5px;border:1px solid black;" alt="SocialApp-rn" width="100">
+<img src="assets/screenshots/Screenshot_1619061060.png" style="border-radius:5px;" alt="Home" height="200">
+<img src="assets/screenshots/Screenshot_1619061118.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
+<img src="assets/screenshots/Screenshot_1619061188.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
+<img src="assets/screenshots/Screenshot_1619064075.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
 </div>
