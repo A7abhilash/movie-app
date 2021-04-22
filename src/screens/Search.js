@@ -42,8 +42,6 @@ export default function Search({ navigation }) {
               query={`search/movie?query=${query}&api_key=${API_KEY}`}
               navigation={navigation}
             />
-            //   <ScrollView style={{ flex: 1, flexDirection: "row" }}>
-            //   </ScrollView>
           )}
         </Text>
       </ScrollView>
