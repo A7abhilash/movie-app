@@ -4,7 +4,7 @@
 
 ### Screenshots
 
-<div>
+<div align="center">
 <h6>
 #1 Home Screen | #2 Category Screen | #3 Search Screen | #4 Details Screen
 </h6>
