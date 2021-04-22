@@ -12,7 +12,7 @@
 
 <div align="center">
 <img src="assets/screenshots/Screenshot_1619061060.png" style="border-radius:5px;" alt="Home" height="200">
-<img src="assets/screenshots/Screenshot_1619061118.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
-<img src="assets/screenshots/Screenshot_1619061188.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
-<img src="assets/screenshots/Screenshot_1619064075.png" style="border-radius:5px;" alt="SocialApp-rn" height="200">
+<img src="assets/screenshots/Screenshot_1619061118.png" style="border-radius:5px;" alt="Category" height="200">
+<img src="assets/screenshots/Screenshot_1619061188.png" style="border-radius:5px;" alt="Search" height="200">
+<img src="assets/screenshots/Screenshot_1619064075.png" style="border-radius:5px;" alt="Details" height="200">
 </div>
